@@ -110,3 +110,34 @@ hr {
     font-size: 0.75rem;
     padding: 20px 0px;
   }
+@media only screen and (max-width:900px) {
+    .top {
+        width: auto;
+    }
+    .top-cloud {
+        right: 350px;
+    }
+    .bottom-cloud {
+        left: 350px;
+    }
+    .img-mountain {
+        width: 100%;
+    }
+    .skill-row {
+        text-align: center;
+    }
+    .skill-1 {
+        width: 250px;
+        float: none;
+       margin: 0px 0px 20px 0px;
+        
+    }
+    .skill-2 {
+        width: 250px;
+        float: none;
+        margin: 0px 0px 20px 0px;
+    }
+    .contact-me-description {
+        width: 40%;
+    }
+}
